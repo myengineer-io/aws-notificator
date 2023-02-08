@@ -20,7 +20,9 @@ variable "threshold" {
 
 variable "tags" {
   # Tags dos recursos na aws
-  type = list(map(any))
+  default = {
+    app = "aws-notificator"
+  }
 }
 
 variable "account_sid" {
@@ -45,5 +47,9 @@ variable "whatsapp" {
 
 variable "discord_webhook_url" {
   # Webhook do discord
+  type = string
+}
+
+variable "region" {
   type = string
 }

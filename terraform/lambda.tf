@@ -19,11 +19,11 @@ EOF
 }
 
 resource "aws_lambda_function" "aws-notificator-lambda" {
-  filename         = "../function/function.zip"
+  filename         = "function/function.zip"
   function_name    = "aws-notificator"
   role             = aws_iam_role.iam_for_lambda.arn
   handler          = "main.lambda_handler"
-  source_code_hash = filebase64sha256("../function/function.zip")
+  source_code_hash = filebase64sha256("function/function.zip")
   timeout          = "5"
 
   runtime = "python3.9"
