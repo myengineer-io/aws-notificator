@@ -4,7 +4,7 @@
 
 # **🔴 Configure as dependências**:
   1. Crie um bucket S3 na sua conta AWS para armazenar o tfstate
- Tenha um usuário IAM na conta AWS com as credenciais em mãos para rodar o terraform e criar os recursos
+  2. Tenha um usuário IAM na conta AWS com as credenciais em mãos para rodar o terraform e criar os recursos
   3. Caso queira usar o **WhatsApp**, você precisa criar uma conta na Twillio e assinar o serviço de api, aqui tem um tutorial, você sairá do tutorial com `destination_number`, `from_number`, `account_sid` e `auth_token` em mãos: [primeiro tutorial](https://www.twilio.com/docs/whatsapp/tutorial/requesting-access-to-whatsapp), [segundo tutorial](https://www.twilio.com/docs/whatsapp/tutorial/send-and-receive-media-messages-whatsapp-python#gather-your-twilio-account-information).
   4. Caso queira usar o discord, crie um webhook no seu canal e copie o link: [tutorial](https://support.discord.com/hc/pt-br/articles/228383668-Usando-Webhooks).
   5. Tenha o docker instalado, ou se preferir, rode o terraform direto, eu prefiro com o docker :)
