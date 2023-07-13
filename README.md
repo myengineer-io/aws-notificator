@@ -19,7 +19,7 @@
   - **discord** *Deseja notificar via discord?: true ou false*
   - **whatsapp** *Deseja notificar via whatsapp?: true ou false*
   - **discord_webhook_url** *Webhook do discord*
-    **region** **Região AWS*
+  - **region** **Região AWS*
   - **AWS_ACCESS_KEY_ID** *Access Key ID do usuário IAM criado acima*
   - **AWS_SECRET_ACCESS_KEY** *Secret Access Key do usuário IAM criado acima*
 
